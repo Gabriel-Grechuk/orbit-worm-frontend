@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Epilogue&family=Fjalla+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: url("./assets/fundo_3.jpg");
+  width: 100%;
+  height: 544px;
+}
+
+.logo {
+  margin: 32px;
+  width: 250px;
+  height: 120px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.title,
+.subtitle {
+  color: #fff;
+  font-family: "Fjalla One", sans-serif;
+  margin-bottom: 64px;
+}
+
+.button-cta {
+  padding: 10px;
+  height: 48px;
+  background-color: #ff6b00;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Dosis;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+
+.final-cta {
+  border: none;
+  background-color: #ff6b00;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Dosis;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.see-yourself {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.card-title {
+  color: red;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.card-content {
+  color: #000;
+  margin-top: 24px;
+  font-family: Epilogue;
+  font-size: 20px;
+  line-height: normal;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 32px;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+}
+
+@media (min-width: 1366px) and (max-width: 2560px) {
+  /* second section */
+
+  .digital-twin-section {
+    display: flex;
+    margin: 24px;
+  }
+
+  .digital-twin-image {
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  .digital-twin-card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 24px;
+    transition: all 0.3s ease-out;
+    background-color: #f3f3f3;
+    margin-left: 24px;
+  }
+
+  /* second section */
+
+  .why-simulate-section {
+    display: flex;
+    margin: 128px 24px 24px 24px;
+  }
+
+  .why-simulate-image {
+    height: 10%;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 24px;
+  }
+
+  .why-simulate-card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 24px;
+    transition: all 0.3s ease-out;
+    background-color: #f3f3f3;
+  }
+
+  /* third section */
+
+  .nasa-explain-section {
+    display: flex;
+    margin: 128px 24px 24px 24px;
+  }
+
+  .nasa-explain-image {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+
+  .nasa-explain-card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    transition: all 0.3s ease-out;
+    background-color: #f3f3f3;
+    margin-left: 24px;
+  }
+
+  .nasa-explain-technician-card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    transition: all 0.3s ease-out;
+    background-color: #f3f3f3;
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 64px;
+  }
+
+  .final-cta {
+    padding: 12px;
+  }
+}
+@media (min-width: 300px) and (max-width: 1300px) {
+  header {
+    text-align: center;
+  }
+
+  /* second section */
+
+  .digital-twin-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 24px;
+  }
+
+  .digital-twin-image {
+    width: 100%;
+    height: 10%;
+    border-radius: 10px;
+  }
+
+  .digital-twin-card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    margin-top: 24px;
+    padding: 24px;
+    transition: all 0.3s ease-out;
+    background-color: #f3f3f3;
+  }
+
+  /* second section */
+
+  .why-simulate-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  .why-simulate-image {
+    height: 10%;
+    width: auto;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .why-simulate-card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 24px;
+    transition: all 0.3s ease-out;
+    background-color: #f3f3f3;
+    margin: 24px;
+  }
+
+  /* third section */
+
+  .nasa-explain-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  .nasa-explain-image {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 24px;
+  }
+
+  .nasa-explain-card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    transition: all 0.3s ease-out;
+    background-color: #f3f3f3;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .nasa-explain-technician-card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    transition: all 0.3s ease-out;
+    background-color: #f3f3f3;
+    margin-top: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+
+  .final-cta {
+    padding: 12px;
+  }
+}
