@@ -11,6 +11,11 @@ header {
   height: 544px;
 }
 
+.cta-link {
+  color: #000;
+  text-decoration: none;
+}
+
 .logo {
   margin: 32px;
   width: 250px;
